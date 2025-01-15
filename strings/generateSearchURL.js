@@ -12,4 +12,4 @@ let searchQuery = "apple";
 let categoryFilter = "electronics";
 
 let fullURL = generateSearchURL(baseURL, searchQuery, categoryFilter);
-console.log(fullURL);
+console.log(fullURL); // Output: https://www.example.com/search?q=apple&category=electronics
